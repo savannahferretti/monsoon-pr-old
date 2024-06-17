@@ -1,22 +1,20 @@
-Paper Title
+Understanding the limitations of the buoyancy dilution framework to interpret regional monsoon variability
 ------------
 
-by A. A. Author<sup>1</sup>, B. B. Author<sup>1</sup>, & C. C. Author<sup>2</sup>
+By S. L. Ferretti<sup>1</sup>, J. W. Baldwin<sup>1</sup>, & M. S. Pritchard<sup>1</sup>
 
-<sup>1</sup>Department, Organization, City, State, Country
+<sup>1</sup>Department of Earth System Science, University of California, Irvine, Irvine, CA, USA
 
-<sup>2</sup>Department, Organization, City, State, Country
+**Status:** This manuscript is currently being written. We welcome any comments, questions, or suggestions. Please email your feedback to Savannah Ferretti (savannah.ferretti@uci.edu).
 
-**Status:** This paper has been submitted for publication at ```<JOURNAL>```. The ```<PAPER>``` was published in ```<JOURNAL>```, ```<DOI>```. ```<SUPPORTING_INFORMATION>``` is also available.  We welcome any comments, questions, or suggestions. Please email your feedback to ```<MAIN_AUTHOR>``` (```<EMAIL>```).
-
-**Abstract**: Insert abstract text here.
+**Abstract**: N/A
 
 Project Organization
 ------------
 ```
 ├── LICENSE.md         <- License for code
 │
-├── README.md          <- Top-level README for developers using this project
+├── README.md          <- Top-level infomration on this code base
 │
 ├── data/
 │   ├── external/      <- Data from third party sources
@@ -24,23 +22,19 @@ Project Organization
 │   ├── processed/     <- Final analysis-ready data
 │   └── raw/           <- Original immutable data
 │
-├── figs/              <- Figures and graphics generated 
+├── figs/              <- Generated figures and graphics 
 │
-├── notebooks/         <- Jupyter notebooks that call functions from scripts/
+├── notebooks/         <- Jupyter notebooks for data analysis/visualization
+│   └── deprecated/    <- Jupyter notebooks that are no longer in use
 │
-├── scripts/           <- Source code for use in this project (e.g., scripts to clean and visualize data)
-│   ├── clean.py    
-│   ├── calc.py
-│   ├── analyze.py
-│   └── plot.py     
+├── scripts/           <- Source code for use in this project
 │
-├── environment.yml    <- File for reproducing the analysis environment
+└── environment.yml    <- File for reproducing the analysis environment
 ```
 
 Acknowledgements
 -------
-The analysis for this work has been performed on ```<HPC>```. This research was funded by ```<GRANTOR>```.```<NAME>``` provided helpful feedback on the first draft. Thanks to our colleagues at ```<ORGANIZATION>``` for their continued support.
-
+The analysis for this work has been performed on [Bridges-2](https://www.psc.edu/resources/bridges-2/) at the Pittsburgh Supercomputing Center. Thanks to our colleagues at [LEAP NSF-STC](https://leap.columbia.edu/) for allowing data access through [LEAP Pangeo](https://leap.columbia.edu/research-home/leap-pangeo/).
 
 --------
 <p><small>This template is based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>.</small></p>
