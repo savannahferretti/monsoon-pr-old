@@ -51,7 +51,7 @@ coverage.xml
 *.swo
 
 ## Other
-# /data/              # Exclude data from source control by default
+/data/              # Exclude data from source control by default
 docs/_build/        # Sphinx documentation
 target/             # PyBuilder
 .env                # Environment configuration
